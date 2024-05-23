@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Insights - Galactic Memories</title>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700|Roboto:400,700&display=swap" rel="stylesheet">
+    <!-- dont change this if you dont know how it works-->
+    <style>
+        body {
+            background: url(https://img.freepik.com/premium-psd/venus-milky-way-galaxy-background-copy_606306-64.jpg) no-repeat center center fixed;
+            background-size: cover;
+            font-family: 'Roboto', sans-serif;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+            z-index: 10;
+        }
+        .header::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('stars-overlay.png') repeat;
+            opacity: 0.5;
+            z-index: -1;
+        }
+        .header .logo {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 36px;
+            font-weight: 700;
+            color: #ff6600;
+        }
+        .header nav {
+            margin-top: 10px;
+        }
+        .header ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: inline-block;
+        }
+        .header li {
+            display: inline;
+            margin: 0 15px;
+        }
+        .header a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        .header a:hover,
+        .header .current {
+            color: #ff6600;
+        }
+        /* Add more styles as needed */
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">Galactic Memories</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="Our Insight.html" class="current">Our Insights</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="content">
+        <h2>INSIGHTS</h2>
+        <p>“Knowledge is useless without application.”</p>
+        <p>- Julian Hall</p>
+        <p>Simply knowing something is not enough; it must be put into practice to have value. Acquiring knowledge of HTML, the web's language, is a liberating experience. Creating websites that feature user-generated material is made possible by being proficient with its elements, tags, and characteristics. Building a website with friends to archive memories is a rewarding use of HTML knowledge. We learned how to comprehend HTML elements like headings, paragraphs, images, and links and how they work.</p>
+        <p>An enjoyable method to use HTML abilities is to create a website dedicated to memories. We created a digital library of priceless events while combining technical expertise. This project builds a meaningful area that honors friendship in addition to improving coding skills.</p>
+
+        <p>...</p>
+    </div>
+
+    <footer>
+        © 2024 Galactic Memories Group 2-Venus. All rights reserved.
+    </footer>
+</body>
+</html>
